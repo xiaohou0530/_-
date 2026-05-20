@@ -86,7 +86,7 @@ closeBtn.MouseButton1Click:Connect(function()
     gui:Destroy()
 end)
 
-task.delay(6, function()
+task.delay(15, function()
     if gui then
         TweenService:Create(frame, TweenInfo.new(0.25), {
             Position = UDim2.new(1, 320, 1, -120)
